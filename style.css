@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Desert.jpg');
+    background-size: 1370px 800px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1D1B26;
+    color: white;
+    padding: 1rem 0;
+    transition: background-color 0.3s ease;
+}
+
+header:hover {
+    background-color: #333 ;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+section h2 {
+    color: #1D1B26;
+}
+
+.highlighted-text {
+    color: red;
+}
+
+#contact p {
+    color: #E8BEAC; /* Sampled color from the background image, adjust as needed */
+}
+
+#skills p {
+    color: white; /* Sampled color from the background image, adjust as needed */
+}
+
+#contact p:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1D1B26;
+    color: white;
+    padding: 1rem 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+footer:hover {
+    background-color:#333 ;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
