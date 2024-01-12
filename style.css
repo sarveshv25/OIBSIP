@@ -1,74 +1,98 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Georgia', serif;
+    background-color: #f9f9f9;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('Desert.jpg');
-    background-size: 1370px 800px;
-    background-repeat: no-repeat;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 header {
-    background-color: #1D1B26;
-    color: white;
-    padding: 1rem 0;
-    transition: background-color 0.3s ease;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
 }
 
-header:hover {
-    background-color: #333 ;
+main {
+    padding: 2em;
 }
 
 section {
-    margin: 2rem 0;
+    background-image: url('atimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em;
+    border-radius: 10px;
+    color: white;
+    backdrop-filter: blur(20px);
+    height: 70vh;
+    margin-top: -2em;
+    position: relative;
 }
 
-section h2 {
-    color: #1D1B26;
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
-.highlighted-text {
-    color: red;
+p {
+    line-height: 1.6;
+    margin-bottom: 1.5em;
 }
 
-#contact p {
-    color: #E8BEAC; /* Sampled color from the background image, adjust as needed */
+h2 {
+    color: #FFC300;
+    font-size: 1.5em;
 }
 
-#skills p {
-    color: white; /* Sampled color from the background image, adjust as needed */
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#contact p:hover {
-    text-decoration: underline;
+li {
+    margin-bottom: 0.5em;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.stats {
+    margin-top: 1.5em;
+}
+
+.adore {
+    margin-top: 1.5em;
+    font-size: 1.1em;
+    font-style: italic;
 }
 
 footer {
-    background-color: #1D1B26;
-    color: white;
-    padding: 1rem 0;
-    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: static;
     bottom: 0;
     width: 100%;
-    text-align: center;
-    transition: background-color 0.3s ease;
 }
 
-footer:hover {
-    background-color:#333 ;
-}
 
-a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
 
-a:hover {
-    text-decoration: underline;
-    color: blue;
+
+
+
+
+header {
+    background-color: #8B0000; /* Bloodshed color */
+    color: #fff; /* Text color, adjust as needed */
+    padding: 1em;
 }
